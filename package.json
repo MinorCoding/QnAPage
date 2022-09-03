@@ -1,0 +1,32 @@
+{
+  "name": "qa_page",
+  "version": "0.0.0",
+  "description": "세상의 모든 질문과 답변을 한 곳에서 해결할 수 있다면? 그것이 생각보다 가까이 있습니다. 안녕하세요. QA page입니다.",
+  "main": "index.js",
+  "type": "module",
+  "imports": {
+    "#model/*": "./model/*",
+    "#router/*": "./router/*",
+    "#view/*": "./view/*"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SGGTeam/QnAPage.git"
+  },
+  "keywords": [
+    "Q&A"
+  ],
+  "author": "GyeoungHo Kim and ShangBin Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SGGTeam/QnAPage/issues"
+  },
+  "homepage": "https://github.com/SGGTeam/QnAPage#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
